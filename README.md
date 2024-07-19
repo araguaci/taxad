@@ -2,9 +2,17 @@
 
 Atualmente o Brasil caminha para ser o país com os maiores impostos do mundo...
 
+  - [taxad](https://taxad.vercel.app/)
+
+## Esclarecimento
+
+        Este espaço é dedicado ao trabalho voluntário com o objetivo de estudar tecnologias, sem qualquer financiamento ou vínculo com indivíduos, partidos ou políticos.<br/>
+        As imagens utilizadas foram encontradas na internet e não possuem menção de direitos autorais. <br/>
+        O espaço foi criado para praticar habilidades e realizar testes em tecnologias de programação.
+
 ![](https://taxad.vercel.app/impostos.jpeg)
 
-  - [taxad](https://taxad.vercel.app/)
+---
 
 # Next.js & Cloudinary example app
 
