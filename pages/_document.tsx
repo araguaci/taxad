@@ -6,30 +6,30 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <title>plunct plact zum, acabei de taxar mais um!</title>
+          <title>Plunct plact zum, acabei de taxar mais um!</title>
           <meta
             property="og:image"
-            content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
+            content="https://taxad.vercel.app/help.svg"
           />
           <meta name="twitter:card" content="summary" />
-          <meta property="twitter:title" content="plunct plact zum, acabei de taxar mais um!" />
-          <meta property="og:title" content="plunct plact zum, acabei de taxar mais um!" />
+          <meta property="twitter:title" content="Plunct plact zum, acabei de taxar mais um!" />
+          <meta property="og:title" content="Plunct plact zum, acabei de taxar mais um!" />
           <meta
             property="og:description"
-            content="Índices e resultados do último governo e atual administração"
+            content="Brasil caminha para ser o país com os maiores impostos do mundo..."
           />
           <meta property="og:site_name" content="taxad.vercel.app" />
           <meta
             property="twitter:description"
-            content="Índices e resultados do último governo e atual administração."
+            content="Brasil caminha para ser o país com os maiores impostos do mundo..."
           />
           <meta
             property="twitter:image"
-            content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
+            content="https://taxad.vercel.app/help.svg"
           />
           <meta
             property="og:image"
-            content="https://e0.pxfuel.com/wallpapers/614/1019/desktop-wallpaper-despicable-me-2-minions-x-post-from-i-black-minion.jpg"
+            content="https://taxad.vercel.app/help.svg"
           />
           <meta
             property="twitter:url"

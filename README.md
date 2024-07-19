@@ -1,8 +1,10 @@
-# Malvado Favorito
+# Plunct plact zum, acabei de taxar mais um...
 
-Índices e resultados do último governo e atual administração. Muitas informações não chegam ao público porque existe muito financiamento para acobertamento e propaganda.
+Atualmente o Brasil caminha para ser o país com os maiores impostos do mundo...
 
-  - [malvadofavorito](taxad.vercel.app)
+![](https://taxad.vercel.app/impostos.jpeg)
+
+  - [taxad](https://taxad.vercel.app/)
 
 # Next.js & Cloudinary example app
 

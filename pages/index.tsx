@@ -114,7 +114,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               className="mb-3 after:content group relative mb-15 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
             >
               <Image
-                alt="Índices e resultados do último governo e atual administração"
+                alt="Plunct plact zum, acabei de taxar mais um!"
                 className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
                 style={{ transform: "translate3d(0, 0, 0)" }}
                 placeholder="blur"
