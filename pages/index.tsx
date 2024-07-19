@@ -71,8 +71,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           />
         )}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4 mb-1">
-          <div className="after:content relative flex h-[450px] flex-col items-center justify-end gap-5 overflow-hidden rounded-lg bg-white/10 px-6 pb-11 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0 mb-3">
-            <div className="absolute justify-center opacity-70 mb-0">
+          <div className="after:content relative flex h-[470px] flex-col items-center justify-end gap-5 overflow-hidden rounded-lg bg-white/10 px-6 pb-11 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0 mb-3">
+            <div className="absolute justify-center opacity-40 mb-0">
               <Help />
             </div>
             <div className="absolute h-[639px] inset-0 flex items-center justify-center opacity-20 mb-0">
@@ -179,8 +179,16 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             alt="visitantes"
             loading="lazy"
           />
-        </div>  
+        </div>        
       </footer>
+      <div className="max-w-full md:text-center">      
+        <p className="text-base drop-shadow-lg text-slate-300 m-10 flex justify-center">
+        Esclarecimento<br />
+        Este espaço é dedicado ao trabalho voluntário com o objetivo de estudar tecnologias, sem qualquer financiamento ou vínculo com indivíduos, partidos ou políticos.<br/>
+        As imagens utilizadas foram encontradas na internet e não possuem menção de direitos autorais. <br/>
+        O espaço foi criado para praticar habilidades e realizar testes em tecnologias de programação.
+        </p>
+      </div>
     </>
   );
 };
