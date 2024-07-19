@@ -146,6 +146,13 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </p>
       </div>      
       <footer className="p-6 text-center text-white/80 sm:p-12 content-center">
+        <div className="max-w-full md:text-center">      
+          <p className="text-3xl drop-shadow-lg text-slate-300 m-10 flex justify-center">        
+            O rei que exerce a justiça dá estabilidade ao país, mas o que gosta de subornos o leva à ruína.
+            <br/>
+            ~~Provérbios: 30-4
+          </p>
+        </div>
         <div className="react-reveal">
           <div className="social">
             <a target="_blank" rel="noopener" href="https://x.com/intent/post?text=Plunct%20plact%20zum%2C%20acabei%20de%20taxar%20mais%20um!%0A%0A&amp;url=https%3A%2F%2Ftaxad.vercel.app%2F" className="social-icon" aria-label="twitter" ><div className="social-container" ><svg className="social-svg" viewBox="0 0 64 64" ><g className="social-svg-background" ><path d="m 48.1,22.1 c -1.223105,0.430685 -2.4,0.761371 -3.8,1 1.4,-0.8 2.4,-2.1 2.9,-3.6 -1.3,0.8 -2.7,1.3 -4.2,1.6 -1.2,-1.3 -3,-2.1 -4.8,-2.1 -3.6,0 -6.6,2.9 -6.6,6.6 0,0.5 0.1,1 0.2,1.5 -5.5,-0.3 -10.3,-2.9 -13.5,-6.9 -0.6,1 -0.9,2.1 -0.9,3.3 0,2.3 1.2,4.3 2.9,5.5 -1.1,0 -2.1,-0.3 -3,-0.8 v 0.1 c 0,3.2 2.3,5.8 5.3,6.4 -0.6,0.1 -1.1,0.2 -1.7,0.2 -0.4,0 -0.8,0 -1.2,-0.1 0.8,2.6 3.3,4.5 6.1,4.6 -2.2,1.8 -5.1,2.8 -8.2,2.8 -0.5,0 -1.1,0 -1.6,-0.1 C 18.9,44 22.4,45 26.1,45 38.2,45 44.43575,34.996634 44.67774,26.3 L 44.7,25.5 c 1.2,-1 2.5,-2.1 3.4,-3.4 z"></path></g><g className="social-svg-mask" ><path d="M0,0v64h64V0H0z M44.7,25.5c0,0.3,0,0.6,0,0.8C44.7,35,38.1,45,26.1,45c-3.7,0-7.2-1.1-10.1-2.9 c0.5,0.1,1,0.1,1.6,0.1c3.1,0,5.9-1,8.2-2.8c-2.9-0.1-5.3-2-6.1-4.6c0.4,0.1,0.8,0.1,1.2,0.1c0.6,0,1.2-0.1,1.7-0.2 c-3-0.6-5.3-3.3-5.3-6.4c0,0,0-0.1,0-0.1c0.9,0.5,1.9,0.8,3,0.8c-1.8-1.2-2.9-3.2-2.9-5.5c0-1.2,0.3-2.3,0.9-3.3 c3.2,4,8.1,6.6,13.5,6.9c-0.1-0.5-0.2-1-0.2-1.5c0-3.6,2.9-6.6,6.6-6.6c1.9,0,3.6,0.8,4.8,2.1c1.5-0.3,2.9-0.8,4.2-1.6 c-0.5,1.5-1.5,2.8-2.9,3.6c1.3-0.2,2.6-0.5,3.8-1C47.1,23.4,46,24.5,44.7,25.5z"></path></g></svg>
@@ -162,18 +169,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </a>
           </div>
         </div>
-        <div className="w-[128px] p-1 mx-auto text-center">
-          <Link
-            href="https://www.artesdosul.com/"
-            target="_blank"
-            title="Thank you to artesdosul"
-            className="font-semibold hover:text-white content-center"
-            rel="noreferrer"
-          >
-            <Minion />
-          </Link>
-        </div>
-        <div className="w-[128px] p-1 mx-auto my-4 text-center">
+      <div className="w-[128px] p-1 mx-auto my-4 text-center">
           <img
             src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Ftaxad.vercel.app%2F&label=visitantes&countColor=%23263759"
             alt="visitantes"
@@ -182,8 +178,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>        
       </footer>
       <div className="max-w-full md:text-center">      
-        <p className="text-base drop-shadow-lg text-slate-300 m-10 flex justify-center">
-        Esclarecimento<br />
+        <p className="text-base drop-shadow-lg text-slate-300 mb-5 flex justify-center">
+        ESCLARECIMENTO<br />
         Este espaço é dedicado ao trabalho voluntário com o objetivo de estudar tecnologias, sem qualquer financiamento ou vínculo com indivíduos, partidos ou políticos.<br/>
         As imagens utilizadas foram encontradas na internet e não possuem menção de direitos autorais. <br/>
         O espaço foi criado para praticar habilidades e realizar testes em tecnologias de programação.
