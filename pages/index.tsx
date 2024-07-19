@@ -96,7 +96,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <br />
               <a
                 className="pointer z-10 rounded-lg border border-white bg-green-700 px-3 py-2 text-sm font-semibold text-yellow transition hover:bg-yellow-300 hover:text-green-900 mt-1 mb-0"
-                href="https://abusofederal.vercel.app/Imposto/"
+                href="https://abusofederal.vercel.app/imposto"
                 target="_blank"
                 rel="noreferrer"
               >
