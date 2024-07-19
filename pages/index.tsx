@@ -44,7 +44,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         <title>Plunct plact zum, acabei de taxar mais um!</title>
         <meta
           property="og:image"
-          content="./help.svg"
+          content="https://taxad.vercel.app/help.svg"
         />
         <meta name="twitter:card" content="summary" />
         <meta property="twitter:title" content="Plunct plact zum, acabei de taxar mais um!" />
@@ -54,7 +54,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         />
         <meta
           property="twitter:image"
-          content="./help.svg"
+          content="https://taxad.vercel.app/help.svg"
         />
         <meta
           property="twitter:url"
@@ -141,10 +141,9 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </span>
       </main>
       <div className="mx-auto max-w-2xl md:text-center">
-        <p className="flex justify-center">   // 👈 specify flex here
+        <p className="flex justify-center">    
           <Impostos />
         </p>
-        <p className="mt-4 text-4xl tracking-tight text-slate-700">Company Here</p>
       </div>      
       <footer className="p-6 text-center text-white/80 sm:p-12 content-center">
         <div className="react-reveal">
